@@ -165,11 +165,11 @@ if st.button('Show Recommendation'):
     st.markdown(
     """
     <div style="
-        background-color: #1E1E2E;
-        padding: 15px;
-        border-radius: 10px;
+        background-color: #FFFFFF;
+        padding: 10px;
+        border-radius: 8px;
         text-align: center;
-        color: #FFD700;
+        color: #000000;
         font-size: 20px;
         font-weight: bold;">
         🌟 Here are your recommendations!
