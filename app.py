@@ -162,7 +162,21 @@ if st.button('Show Recommendation'):
                 st.text(names[i])
                 st.markdown(f'<a href="{imdb_links[i]}" target="_blank"><img src="{posters[i]}" width="150"/></a>', unsafe_allow_html=True)
 
-    st.success('Here are your recommendations!')
+    st.markdown(
+    """
+    <div style="
+        background-color: #1E1E2E;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        color: #FFD700;
+        font-size: 20px;
+        font-weight: bold;">
+        🌟 Here are your recommendations!
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 
