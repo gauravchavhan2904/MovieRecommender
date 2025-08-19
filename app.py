@@ -166,11 +166,11 @@ if st.button('Show Recommendation'):
     """
     <div style="
         background-color: #FFFFFF;
-        padding: 10px;
+        padding: 8px;
         border-radius: 8px;
         text-align: center;
         color: #000000;
-        font-size: 20px;
+        font-size: 17px;
         font-weight: bold;">
         🌟 Here are your recommendations!
     </div>
